@@ -82,7 +82,7 @@ export default function WordHuntSolver() {
             onChange={handleGridSizeChange}
             className="border rounded-md p-2"
           >
-            {[3, 4, 5, 6, 7].map((size) => (
+            {[3, 4, 5, 6, 7, 8, 9].map((size) => (
               <option key={size} value={size}>
                 {size}x{size}
               </option>
